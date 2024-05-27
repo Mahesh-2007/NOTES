@@ -19,7 +19,12 @@ var notetitle = document.getElementById("input")
 var des = document.getElementById("des") 
 var box = document.querySelector(".box")
 var conti = document.querySelector(".container")
+var popup2 = document.querySelector(".popup2")
+function pop2(){
 
+    popup2.style.display = "none"
+
+}
 function added(event){
     event.preventDefault()
     var div = document.createElement("div")
@@ -29,7 +34,10 @@ function added(event){
     <button onclick="deleted(event)" id ="delete">DELETE</button>`
     
     if(notetitle.value==""){
-        alert("YOUR NOTE IS EMPTY,PLEASE ENTER YOUR NOTE")
+        
+        popup2.style.display = "block"
+        
+
         return;
     }
     

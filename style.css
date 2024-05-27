@@ -160,4 +160,51 @@ outline: none;
 textarea:focus{
     outline: none;
    
+
+}
+.overlay2 {
+    background-color: black;
+width: 100%;
+height: 100%;
+position: absolute;
+opacity: 0.8;
+z-index: 5;
+left: 0;
+bottom: 0;
+display: none;
+}
+.popup2{
+position: absolute;
+top: 32%;
+left: 30%;
+background-color: aqua;
+width: 36%;
+padding: 40px;
+border-radius: 10px;
+z-index: 6;
+display: none;
+padding-left: 50px;
+padding-right: 1px;
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+height: 230px;
+font-style: normal;
+}
+.text{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    left:20px;
+}
+.btn{
+display: flex;
+position: absolute;
+left: 43%;
+padding: 9px 18px;
+border-radius: 10px;
+border-style:none ;
+bottom: 50px;
+color: wheat;
+background-color: rgb(2, 75, 59)
 }
