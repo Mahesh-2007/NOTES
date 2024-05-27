@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 156, 109);
+     
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.nav{
+background-color: aqua;
+height: 67px;
+}
+.nav h1{
+    position: absolute;
+    left: 44%;
+    top: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+span{
+    position: absolute;
+    top: -24px;
+    left: 103px;
+    display: flex;
+
+}
+.container{
+    padding: 10px;
+
+}
+.box{
+    width: 25%;
+    display: inline-block;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-left:10px ;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: text-top;
+
+}
+p{
+  font-weight: 300;  
+
+}#delete{
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: rgb(8, 72, 75);
+}
+.add{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: rgb(0, 0, 0);
+    padding: 25px 30px;
+    background-color: aqua;
+    border-radius: 100%;
+    border: none;
+    font-size: 20px;
+
+}
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+   display: none;
+}
+.popup{
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    background-color: aqua;
+    width: 25%;
+    padding: 40px;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+    padding-left: 60px;
+    padding-right: 10px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#input{
+    padding: 10px;
+    border: none;
+    width: 75%;
+    background-color: transparent;
+    border-style: none;
+    margin: 10px;
+   margin-left: 1;
+    font-size: 15px;
+    border-bottom:solid black 2px ;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+#des{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-style: none;
+    margin: 10px;
+    width: 75%;
+    padding: 5px;
+    font-size: 15px;
+    border:solid black 2px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.popup h2{
+    position: relative;
+    left: 60px;
+    bottom: 5px;
+}
+#input::placeholder{
+    color: rgb(0, 0, 0);
+}
+textarea::placeholder{
+    color: black;
+    
+    padding-top: 7px;
+
+}
+#add-book{
+    background-color: rgb(19, 94, 69);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 80px;
+    margin-top: 5px;
+    color: aliceblue;
+}
+#cancel{
+    background-color: rgb(19, 94, 69);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+input:focus{
+outline: none;
+}
+textarea:focus{
+    outline: none;
+   
+}
