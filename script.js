@@ -22,8 +22,9 @@ var conti = document.querySelector(".container")
 var popup2 = document.querySelector(".popup2")
 function pop2(){
 
-    popup2.style.display = "none"
-
+    document.querySelector(".popup2").style.display = "none"
+    document.querySelector(".overlay2").style.display = "none"
+    document.querySelector(".overlay").style.display = "none"
 }
 function added(event){
     event.preventDefault()
@@ -34,11 +35,20 @@ function added(event){
     <button onclick="deleted(event)" id ="delete">DELETE</button>`
     
     if(notetitle.value==""){
-        
-        popup2.style.display = "block"
-        
+            
+            event.preventDefault();
+            if(notetitle.value == "" || des.value == "") {
+                popup2.style.display = "block"
+               
+                document.querySelector(".popup").style.display = "none"
+                
 
-        return;
+            }
+            
+
+            return;
+           
+            
     }
     
     conti.append(div)

@@ -107,7 +107,7 @@ p{
     font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-
+   text-align: center;
 }
 #des{
     padding: 10px;
@@ -134,7 +134,7 @@ p{
 textarea::placeholder{
     color: black;
     
-    padding-top: 7px;
+    
 
 }
 #add-book{
@@ -208,3 +208,35 @@ bottom: 50px;
 color: wheat;
 background-color: rgb(2, 75, 59)
 }
+.x{
+    display: flex;
+    
+}
+@media screen and (max-width: 600px) {
+    /* CSS rules for screens with a maximum width of 600px */
+    .popup {
+        width: 53%;
+        position: relative;
+        left: 77px;
+        top: 49px;
+    }
+
+    .popup2 {
+        width: 64%;
+        position: relative;
+        left: 51px;
+        top: 60px;
+    }
+    .popup2 h1 {
+        font-size: 20px;
+    }
+
+    .overlay {
+      display: none;
+    }
+
+    .overlay2 {
+      display: none;
+    }
+
+  }
